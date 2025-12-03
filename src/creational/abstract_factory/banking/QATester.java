@@ -1,6 +1,6 @@
 package creational.abstract_factory.banking;
 
-import design_patterns.abstract_factory.Tester;
+import creational.abstract_factory.Tester;
 
 public class QATester implements Tester {
     @Override

@@ -1,7 +1,7 @@
 package creational.abstract_factory.banking;
 
 
-import design_patterns.abstract_factory.ProductOwner;
+import creational.abstract_factory.ProductOwner;
 
 public class BankingPO implements ProductOwner {
     @Override

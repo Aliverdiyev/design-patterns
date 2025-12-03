@@ -1,10 +1,9 @@
 package creational.abstract_factory;
 
-
-import design_patterns.abstract_factory.banking.BankingTeamFactory;
+import creational.abstract_factory.banking.BankingTeamFactory;
 
 public class BankingApp {
-    public static void main(String[] args) {
+    static void main() {
         var projectTeamFactory = new BankingTeamFactory();
         var developer = projectTeamFactory.getDeveloper();
         var tester = projectTeamFactory.getTester();

@@ -1,6 +1,6 @@
 package creational.abstract_factory.website;
 
-import design_patterns.abstract_factory.ProductOwner;
+import creational.abstract_factory.ProductOwner;
 
 public class WebsitePO implements ProductOwner {
     @Override
