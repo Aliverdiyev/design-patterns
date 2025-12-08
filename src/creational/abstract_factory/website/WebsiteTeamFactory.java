@@ -1,0 +1,23 @@
+package creational.abstract_factory.website;
+
+import creational.abstract_factory.Developer;
+import creational.abstract_factory.ProductOwner;
+import creational.abstract_factory.ProjectTeamFactory;
+import creational.abstract_factory.Tester;
+
+public class WebsiteTeamFactory implements ProjectTeamFactory {
+    @Override
+    public Developer getDeveloper() {
+        return new PythonDeveloper();
+    }
+
+    @Override
+    public Tester getTester() {
+        return new ManualTester();
+    }
+
+    @Override
+    public ProductOwner getProductOwner() {
+        return new WebsitePO();
+    }
+}
